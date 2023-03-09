@@ -1,0 +1,50 @@
+.container-1 {
+    display: none;
+    width: 100vw;
+    height: 6vw;
+    background-color: #443072;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+
+.contain_player img {
+    width: 10vw;
+    margin: -5vw 1vw 1vw;
+    height: 10vw;
+    border-radius: 20px;
+}
+
+.details h3{
+    margin: 10px;
+    font-size: 2vw;
+    text-decoration: underline;
+}
+.details span{
+    display: block;
+    font-size: 1vw;
+    margin-left: 10px;
+    color: rgb(164, 164, 164);
+}
+.details {
+    width: 70vw;
+}
+.btns {
+    display: flex;
+
+}
+.btns button{
+    width: 4vw;
+    height: 4vw;
+    background-color: transparent;
+    border: none;
+    margin: 1vw 3vw;
+    color: white;
+    font-size: 30px;
+}
+.btns button img{
+    width: 4vw;
+    height: 4vw;
+}

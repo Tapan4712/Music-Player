@@ -1,0 +1,50 @@
+.Main{
+    position: fixed;
+    top: 0%;
+    display: flex;
+    background-color:black;
+    width: 100vw;
+    font-family: cursive;
+    z-index: 1;
+}
+.Logo {
+    width: 20vw;
+    height: 5vw;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.Logo img {
+    width: 4vw;
+    height: 4vw;
+    padding: 0.5vw;
+}
+
+.Logo h1 {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+.Logo h1 span{
+    color: aqua;
+}
+
+li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+nav{
+    margin-left: 50vw;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px;
+    margin-right: 3vw;
+    font-size: 25px;
+    text-align: right;
+}
