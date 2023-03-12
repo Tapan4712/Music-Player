@@ -10,6 +10,7 @@ import pausebtn from "./Images/pause.svg"
 import "./player.css";
 import bgImg from "./Images/bg.jpg"
 import Loading from "./Images/loading1.gif"
+import { useRef } from "react";
 // import bgImg2 from "./Images/bgGif.gif"
 function DynamicAudio() {
     window.onkeypress= function(event){
@@ -33,6 +34,10 @@ function DynamicAudio() {
     console.log(music.index, "index");
     const[dataArray,setDataArray]=useState([])
     const[apiImg, setApiImg] =useState([])
+    const scroll = useRef(true)
+    useEffect(()=>{
+        
+    },[])
  
     const[fug,setFug]=useState(0)
     useEffect(()=>{
@@ -132,6 +137,9 @@ function DynamicAudio() {
                         })}
                         
                     </section>
+                    <button ref={scroll} className="scroll-top" onClick={()=>{
+                        scroll.current=false;
+                    }}>&#8679;</button>
                 </div>
             
     <div className="WebAudio">
